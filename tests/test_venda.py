@@ -2,7 +2,7 @@ from app.registros import Cliente, Venda, Produto
 from datetime import datetime
 
 
-def test_venda_nome_retorna_venda():
+def test_venda_construtor():
     c = Cliente("Luiz", "nick@email.com")
     p = Produto("Anel", 99.99, "dourado")
     d = datetime.today()
